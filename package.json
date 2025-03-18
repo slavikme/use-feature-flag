@@ -1,7 +1,7 @@
 {
   "name": "@slavikme/use-feature-flag",
   "private": false,
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "A React hook for managing client-side feature flags using localStorage",
   "type": "module",
   "main": "dist/index.js",
