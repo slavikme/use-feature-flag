@@ -1,9 +1,9 @@
-# react-use-feature-flag
+# `useFeatureFlag` React Hook
 
-[![npm version](https://img.shields.io/npm/v/react-use-feature-flag.svg)](https://www.npmjs.com/package/react-use-feature-flag)
-[![npm bundle size](https://img.shields.io/bundlephobia/min/react-use-feature-flag)](https://bundlephobia.com/result?p=react-use-feature-flag)
+[![npm version](https://img.shields.io/npm/v/@slavikme/use-feature-flag.svg)](https://www.npmjs.com/package/@slavikme/use-feature-flag)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/@slavikme/use-feature-flag)](https://bundlephobia.com/result?p=@slavikme/use-feature-flag)
 [![CI](https://github.com/slavikme/use-feature-flag/actions/workflows/ci.yml/badge.svg)](https://github.com/slavikme/use-feature-flag/actions/workflows/ci.yml)
-[![License](https://img.shields.io/npm/l/react-use-feature-flag.svg)](https://github.com/slavikme/use-feature-flag/blob/main/LICENSE)
+[![License](https://img.shields.io/npm/l/@slavikme/use-feature-flag.svg)](https://github.com/slavikme/use-feature-flag/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9+-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-16.8+-61DAFB.svg)](https://reactjs.org/)
 
@@ -12,17 +12,17 @@ A simple React hook for managing client-side feature flags using localStorage.
 ## Installation
 
 ```bash
-npm install react-use-feature-flag
+npm install @slavikme/use-feature-flag
 # or
-yarn add react-use-feature-flag
+yarn add @slavikme/use-feature-flag
 # or
-pnpm add react-use-feature-flag
+pnpm add @slavikme/use-feature-flag
 ```
 
 ## Usage
 
 ```tsx
-import useFeatureFlag from "react-use-feature-flag";
+import useFeatureFlag from "@slavikme/use-feature-flag";
 
 function MyComponent() {
   const [isEnabled, setEnabled] = useFeatureFlag("my-feature");
